@@ -1,0 +1,316 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+    #showcase .container {
+        width: 1030px;
+    }
+}
+
+@media (max-width: 1198px) { 
+    .content-service {
+        max-width: 250px;
+    }
+
+}
+
+@media (max-width: 1039px) { 
+    ul.showcase-preview li {
+        max-width: 600px;
+        width: auto;
+    }
+    .ready footer.footer-main .panel-blue {
+        bottom: 244px;
+        height: 60px;
+    }
+    .ready footer.footer-main .panel-blue h3 {
+        font-size: 25px;
+        padding-top: 0;
+    }
+    ul.showcase-preview .flipcard,
+    ul.showcase-preview .flipcard img {
+        width: 200px;
+        height: 134px;
+    }
+    #home .text-hover {
+        height: 44px;
+    }
+    ul.showcase-preview .text-hover h5 {
+        margin-top: 5px;
+    }
+    ul.showcase-preview .text-hover h5,
+    ul.showcase-preview .text-hover p {
+        font-size: 24px;
+    }
+   
+}
+
+@media (max-width: 1000px) { 
+    .container {
+        width: auto;
+        max-width: 1000px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    #contactus .container,
+    #career .container,
+    #service .container,
+    #showcase .container {
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
+    
+    #contactus h3,
+    #career h3,
+    #career .title-text   {
+        padding-left: 10px;
+    }
+    
+    #career #accordion {
+        margin-left: 15px;
+    }
+    .top-nav {
+        padding-right: 10px;
+    }
+    .content-service {
+        max-width: 250px;
+    }
+    #video-bg,
+    #tubular-container {
+        display: none;
+    }
+    #showcase .text-hover {
+        height: 56px;
+    }
+    #showcase .text-hover h5 {
+        font-size: 20px
+    }
+    .home-bg footer.footer-main {
+        bottom: 0;
+    }
+}
+
+@media (max-width: 960px) { 
+    #contactus h2,
+    #contactus .address {
+        padding-left: 10px;
+    }
+    
+    #contactus ul.company-info {
+        margin-left: 10px;
+    }
+    
+     .content-service {
+        max-width: 60%
+    }
+    
+    .service-grid3 {
+        padding: 12px 0 15px 35px;
+    }
+    #service .panel-blue h3,
+    #showcase .panel-blue h3,
+    #career .panel-blue h3,
+    #contactus .panel-blue h3  {
+        padding-left: 15px;
+        font-size: 24px;
+        padding-top: 0;
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+    
+    .panel-blue {
+        height: 56px;
+    }
+    #service .service-grid,
+    #service .service-grid2,
+    #service .service-grid3 {
+        padding-left: 16px;
+    }
+}
+
+@media (max-width: 768px) { 
+    #contactus .pull-right  {
+        float: left!important;
+        margin: 0 10px;
+        padding-bottom: 20px;
+    }
+    
+    #career .panel-title > a {
+        font-size: 14px;
+    }
+    
+    #contactus h4,
+    #contactus h3,
+    .panel-blue h3 {
+        font-size: 30px;
+    }
+    
+    #home h2 {
+        font-size: 44px;
+    }
+    
+    #video-bg,
+    #tubular-container,
+    nav.top-nav,
+    .hidden-device  {
+        display: none;
+    }
+    
+    .logo {
+        margin-top: 5px;
+    }
+    
+    header.header-main {
+        height: 76px;
+    }
+    
+    #tab-contents {
+        margin-top: 64px;
+    }
+    .loading {
+        top: 76px;
+    }
+    .show-device,
+    #mobile,
+    .toggleNav  {
+        display: block;
+    }
+    
+    nav.device-opened+.overlayNav {
+      display: block;
+      z-index: 10;
+    }
+    
+    nav {
+      float: none;
+      left: 100%;
+      margin: 0 auto;
+      max-width: 350px;
+      padding: 0 10px;
+      position: absolute;
+      right: 0;
+      top: 110px;
+      width: 90%;
+      z-index: 11;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      -webkit-transform: rotateX(0) rotateY(90deg) translateZ(0);
+      -moz-transform: rotateX(0) rotateY(90deg) translateZ(0);
+      -ms-transform: rotateX(0) rotateY(90deg) translateZ(0);
+      -o-transform: rotateX(0) rotateY(90deg) translateZ(0);
+      transform: rotateX(0) rotateY(90deg) translateZ(0);
+      -webkit-transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -moz-transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      -o-transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    
+    nav.device-opened li,
+    nav li {
+        background-color: #4992c9;
+        border-bottom: 1px solid #fff;
+        display: block;
+        font-size: 22px;
+        height: 41px;
+        line-height: 2;
+        margin: 0;
+        text-align: center;
+    }
+    
+    nav.device-opened li a,
+    nav li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-family: 'kittithada_roman_55_pregular';
+        line-height: 100%;
+        padding-top: 12px;
+        display: block;      
+    }
+    
+    footer.footer-main,
+    footer.footer-main .panel-blue,
+    .showcase-preview {
+        z-index: 9;
+    }
+    
+    .control .text-center img {
+        width: 90px;
+        height: auto;
+    }
+    
+    .control .text-left img {
+        width: 80px;
+        height: auto;
+    }
+    
+    .control .text-right img {
+        width: 48px;
+        height: auto;
+    }
+    
+    .showcase-detail h2 {
+        font-size:28px;
+    }
+    
+    .showcase-detail article h3 {
+        font-size:26px;
+    }
+    
+    .showcase-detail p span {
+        font-size: 22px;
+    }
+    
+    .wrapper {
+        padding-top: 0;
+    }
+    #showcase .text-hover p {
+        font-size: 14px
+    }
+   #showcase .flipcard {
+        height: 300px;   
+    }
+    
+    .home-bg footer.footer-main {
+        position: fixed;
+        bottom: 0;
+    }
+    #home.ready h2 {
+        line-height: 100%;
+    }
+    .footer-main ul.showcase-preview li .box p {
+        font-size: 12px;
+    }
+    .ready .footer-main ul.showcase-preview {
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 710px) { 
+
+
+}
+
+@media (max-width: 624px) { 
+    ul.showcase-preview,
+    footer.footer-main .panel-blue{
+       display: none;
+    }
+    #home h2 {
+        font-size: 40px;
+    }
+    #showcase .flipcard {
+        height: 250px;   
+    }
+    
+}
+
+@media (max-width: 460px) { 
+    #showcase .flipcard {
+        height: 210px;   
+    }
+    
+}
